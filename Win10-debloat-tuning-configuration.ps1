@@ -37,6 +37,7 @@ $tweaks = @(
 	"InstallVLC",
 	"InstallAdobe",
 	"InstallBrave",
+	"InstallChrome",
 	# "ChangeDefaultApps", # Removed due to issues with steam and resetting default apps
 
 	### Windows Apps
@@ -248,6 +249,11 @@ Function InstallTitusProgs {
 Function InstallAdobe {
 	Show-Choco-Menu -Title "Do you want to install Adobe Acrobat Reader?" -ChocoInstall "adobereader"
 }
+
+Function InstallChrome {
+	Show-Choco-Menu -Title "Do you want to install Adobe Acrobat Reader?" -ChocoInstall "googlechrome"
+}
+
 
 Function InstallBrave {
 	do
